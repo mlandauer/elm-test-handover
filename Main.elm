@@ -1,7 +1,8 @@
 module Main exposing (..)
 
-import Html exposing (text)
+import Html exposing (..)
+import Html.Attributes exposing (..)
 
 
 main =
-    text "Hello, World!"
+    div [ class "box" ] [ text "Hello, World!" ]
