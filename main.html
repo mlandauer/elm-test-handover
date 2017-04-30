@@ -7,13 +7,20 @@
     .box {
       width: 200px;
       height: 200px;
-      background: blue;
       color: white;
+    }
+    .red {
+      background: red;
+    }
+    .green {
+      background: green;
     }
   </style>
 </head>
 <body>
-  <div id="main"></div>
+  <div id="main">
+    <div class="box red">Hello, World!</div>
+  </div>
   <script type="text/javascript" src="main.js"></script>
   <script type="text/javascript">
     var node = document.getElementById('main');

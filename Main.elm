@@ -5,4 +5,4 @@ import Html.Attributes exposing (..)
 
 
 main =
-    div [ class "box" ] [ text "Hello, World!" ]
+    div [ class "box green" ] [ text "Hello, World!" ]
